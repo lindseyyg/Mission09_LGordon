@@ -16,10 +16,6 @@ interface TeamData {
   state: string;
 }
 
-interface TeamListProps {
-  teams: TeamData[];
-}
-
 function Header() {
   return (
     <h1
