@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* CSS That I've added */
+.card {
+  width: calc(90% - 40px);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+}
+
+.team-details h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.team-details h3 {
+  margin: 0;
+  font-size: 1rem;
+  color: #666;
+}
